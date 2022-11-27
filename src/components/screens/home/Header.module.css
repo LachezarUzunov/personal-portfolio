@@ -1,0 +1,23 @@
+.header {
+    margin-top: 8rem;
+    width: 60%;
+}
+
+.desc {
+    color: white;
+    font-family: 'Baloo 2', cursive;
+    font-size: 2rem;
+    width: fit-content;
+}
+
+.btns__div {
+    display: flex;
+    gap: 2rem;
+}
+
+/* font-family: 'Baloo 2', cursive;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Kanit', sans-serif;
+font-family: 'Marhey', cursive;
+font-family: 'Monoton', cursive;
+font-family: 'Nunito', sans-serif; */

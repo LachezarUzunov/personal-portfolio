@@ -44,8 +44,25 @@ body {
 
 h2 {
   color: white;
+  font-family: 'Nunito', sans-serif;
+  letter-spacing: 2px;
+  font-size: 3rem;
 }
 
 .container {
   width: var(--container-width-lg);
+  margin: 0 auto;
+}
+
+.btn__primary {
+  padding: 1rem;
+  border-radius: 25px;
+  background-color: magenta;
+  cursor: pointer;
+  color: blanchedalmond;
+  font-family: 'Kanit', sans-serif;
+  font-weight: 500;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
