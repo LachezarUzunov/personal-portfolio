@@ -1,23 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;800&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&family=Marhey:wght@300;400;700&family=Monoton&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,1000&family=Permanent+Marker&family=Rubik+Distressed&family=Space+Grotesk:wght@300;400;500;600;700&family=Syne+Mono&display=swap');
 
 /* font-family: 'Baloo 2', cursive;
-
 font-family: 'Josefin Sans', sans-serif;
-
 font-family: 'Kanit', sans-serif;
-
 font-family: 'Marhey', cursive;
-
 font-family: 'Monoton', cursive;
-
 font-family: 'Nunito', sans-serif;
-
 font-family: 'Permanent Marker', cursive;
-
 font-family: 'Rubik Distressed', cursive;
-
 font-family: 'Space Grotesk', sans-serif;
-
 font-family: 'Syne Mono', monospace; */
 
 *,
@@ -49,4 +40,12 @@ html {
 
 body {
   background-image: url('./assets/dots-blur.jpg');
+}
+
+h2 {
+  color: white;
+}
+
+.container {
+  width: var(--container-width-lg);
 }

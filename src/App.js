@@ -1,11 +1,18 @@
 import React from "react";
 import "./App.css";
-import MainNavigation from "./components/MainNavigation";
+import { Routes, Route } from "react-router-dom";
+import MainNavigation from "./components/layout/MainNavigation";
+import Home from "./components/screens/home/Home";
 
 function App() {
   return (
     <React.Fragment>
-      <MainNavigation />
+      <div className="background">
+        <MainNavigation />
+        <Routes>
+          <Route path="/" element={<Home />} />
+        </Routes>
+      </div>
     </React.Fragment>
   );
 }
