@@ -38,19 +38,19 @@ html {
   scroll-behavior: smooth;
 }
 
-body {
+/* body {
   background-image: url('./assets/dots-blur.jpg');
-}
+} */
 
 h2 {
   color: white;
   font-family: 'Nunito', sans-serif;
   letter-spacing: 2px;
-  font-size: 3rem;
+  font-size: 2.4rem;
 }
 
 .container {
-  width: var(--container-width-lg);
+  /* width: var(--container-width-lg); */
   margin: 0 auto;
 }
 

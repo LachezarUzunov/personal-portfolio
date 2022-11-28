@@ -1,12 +1,19 @@
+.header__section {
+    background-image: url('../../../assets/dots-blur.jpg');
+    height: 90vh;
+    width: 100%;
+}
+
 .header {
-    margin-top: 8rem;
+    padding-top: 6rem;
     width: 60%;
 }
 
 .desc {
     color: white;
     font-family: 'Baloo 2', cursive;
-    font-size: 2rem;
+    font-size: 1.6rem;
+    font-weight: 100;
     width: fit-content;
 }
 
