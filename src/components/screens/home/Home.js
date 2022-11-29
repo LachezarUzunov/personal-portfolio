@@ -4,10 +4,10 @@ import Header from "./Header";
 
 const Home = () => {
   return (
-    <section className="container">
+    <React.Fragment>
       <Header />
       <About />
-    </section>
+    </React.Fragment>
   );
 };
 

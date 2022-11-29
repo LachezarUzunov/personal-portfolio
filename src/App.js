@@ -7,12 +7,10 @@ import Home from "./components/screens/home/Home";
 function App() {
   return (
     <React.Fragment>
-      <div className="background">
-        <MainNavigation />
-        <Routes>
-          <Route path="/" element={<Home />} />
-        </Routes>
-      </div>
+      <MainNavigation />
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
     </React.Fragment>
   );
 }

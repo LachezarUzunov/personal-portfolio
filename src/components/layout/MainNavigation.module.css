@@ -1,7 +1,7 @@
 .nav {
     display: flex;
     flex-direction: row;
-    height: 5rem;
+    height: 10vh;
     width: 100%;
     /* gap: 6rem; */
     align-items: center;
