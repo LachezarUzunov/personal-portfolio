@@ -51,7 +51,7 @@ h3 {
 }
 
 .container {
-  width: var(--container-width-lg);
+  max-width: var(--container-width-lg);
   margin: 0 auto;
 }
 

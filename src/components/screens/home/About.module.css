@@ -12,6 +12,30 @@
     height: 100vh;
 }
 
-.about > div {
-    width: 50%;
+.about__section img {
+    max-width: 300px;
+    border-radius: 25px;
+}
+
+.about__skills {
+    display: flex;
+    gap: 4rem;
+    margin-top: 1rem;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+/* .about__skills div:hover {
+    box-shadow: 0px 0px 30px 1px rgba(0, 0, 0, 0.85);
+} */
+
+.icon {
+    font-size: 3rem;
+    color: #0d0d62;
+   
+}
+
+.icon:hover {
+    transform: scale(1.1);
 }
