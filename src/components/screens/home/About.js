@@ -5,7 +5,6 @@ import {
   FaCpanel,
   FaCss3,
   FaNode,
-  FaNodeJs,
   FaReact,
   FaWordpressSimple,
 } from "react-icons/fa";
