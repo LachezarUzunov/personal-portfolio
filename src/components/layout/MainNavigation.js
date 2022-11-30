@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import classes from "./MainNavigation.module.css";
 import { AiFillHome } from "react-icons/ai";
-import { BsFillPersonFill } from "react-icons/bs";
 import { FaCode } from "react-icons/fa";
 import { Link } from "react-router-dom";
 

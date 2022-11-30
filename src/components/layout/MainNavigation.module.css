@@ -13,7 +13,7 @@
     gap: 1rem;
     width: 100%;
     justify-content: center;
-    color: rgb(143, 2, 143);
+    color: var(--darkerblue);
     font-family: 'Josefin Sans', sans-serif;
     font-size: 2rem;
     padding: 1rem;
@@ -21,25 +21,26 @@
 }
 
 .nav li.active {
-    color: magenta;
+    color: var(--accent-blue);
+    /* box-shadow: 20px 25px 50px 0px rgba(255,255,255,0.75); */
 }
 
 .nav li:hover {
     cursor: pointer;
-    color:magenta;
+    color:var(--accent-blue);
 }
 
 .active {
-    border-bottom: 4px solid cyan;
+    border-bottom: 4px solid var(--accent-blue)
 }
 
 .link {
-    color: rgb(143, 2, 143);
+    color: var(--darkerblue);
     transition: 200ms ease-in-out;
 }
 
 .nav li:hover .link {
-    color: magenta;
+    color: var(--accent-blue);
     font-size: 2.1rem;
 }
 

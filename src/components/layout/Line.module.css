@@ -1,5 +1,5 @@
 .line {
-    border-bottom: 3px solid cyan;
+    border-bottom: 3px solid var(--accent-blue);
     border-radius:25px;
     width: 60%;
     margin-top: 1.2rem;

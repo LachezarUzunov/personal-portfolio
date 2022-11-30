@@ -85,7 +85,7 @@ h5 {
 .btn__primary {
   padding: .8rem 2rem;
   border-radius: 25px;
-  background-color: cyan;
+  background-color: #2596f7;
   cursor: pointer;
   color: black;
   font-family: 'Baloo 2', cursive;
@@ -105,10 +105,10 @@ h5 {
 .btn__secondary {
   padding: .8rem 2rem;
   border-radius: 25px;
-  border: 2px solid cyan;
+  border: 2px solid #2596f7;
   background-color: black;
   cursor: pointer;
-  color: cyan;
+  color: var(--accent-blue);
   font-family: 'Baloo 2', cursive;
   font-weight: 700;
   font-size: 1.4rem;
