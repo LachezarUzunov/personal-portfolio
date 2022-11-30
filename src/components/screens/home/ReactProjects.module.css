@@ -1,0 +1,29 @@
+.projects__bg {
+    /* background-image: url("../../../assets/bursting-energy-particles-made-golden-dust.jpg"); */
+    /* background-repeat: no-repeat;
+    background-size: cover; */
+    background-color: var(--blue);
+    height: 100vh;
+}
+
+.projects__header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 4rem;
+}
+
+.projects__section {
+    display: flex;
+    gap: 4rem;
+    justify-content: space-around;
+}
+
+.projects__tech_stack {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.projects__image img {
+     max-width: 300px;
+}
