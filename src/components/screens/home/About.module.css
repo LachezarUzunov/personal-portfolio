@@ -12,8 +12,8 @@
 .about__section {
     display: flex;
     justify-content: space-around;
-    gap: 4rem;
-    height: 100vh;
+    gap: 4rem; 
+    /* height: 100vh; */
 }
 
 .about__section img {
@@ -27,10 +27,14 @@
     box-shadow: 0px 0px 30px 2px rgb(255, 255, 255);
 }
 
+.about__skills_heading {
+    margin-top: 2rem;
+}
+
 .about__skills {
     display: flex;
-    gap: 4rem;
-    margin-top: 1rem;
+    gap: 2rem;
+    margin-top: 2rem;
     margin-bottom: 2rem;
     flex-wrap: wrap;
     align-items: center;
@@ -43,7 +47,7 @@
 
 .icon {
     font-size: 3rem;
-    color: var(--yellow);
+    color: var(--accent-yellow);
    
 }
 

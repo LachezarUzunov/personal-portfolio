@@ -30,9 +30,13 @@ const About = () => {
               I've been working in the IT industry for the past 8 years, 7 of
               which as first line technical support representative at SiteGround
               - one of the largest hosting services providers. I've helped over
-              60 000 clients with WordPress issues,{" "}
+              60 000 clients with WordPress issues, DNS changes and settings as
+              well as email clients configuration.{" "}
             </p>
-            <h2>My Tech Stack</h2>
+          </div>
+        </div>
+        <div>
+        <h2 className={classes.about__skills_heading}>My Tech Stack</h2>
             <Line />
             <div className={classes.about__skills}>
               <div>
@@ -97,7 +101,6 @@ const About = () => {
               </div>
             </div>
             <button className="btn__secondary">Let's Talk</button>
-          </div>
         </div>
       </section>
     </section>

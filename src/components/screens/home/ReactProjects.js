@@ -9,7 +9,6 @@ const ReactProjects = () => {
         <h2>My React Apps</h2>
         <Line />
       </div>
-
       <div className="container">
         <section className={classes.projects__section}>
           <article>
