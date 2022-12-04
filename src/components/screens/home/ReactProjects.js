@@ -8,13 +8,17 @@ const ReactProjects = () => {
     <React.Fragment>
       <section className={classes.projects__bg}>
         <div className={classes.projects__header}>
-          <h2>My React Apps</h2>
+          <h2>MY REACT APPLICATIONS</h2>
           <Line />
         </div>
         <div className="container">
           <section className={classes.projects__section}>
             <article>
-              <h4>Technologies used</h4>
+              <h4>Fullstack MERN application</h4>
+              <h2>THE COOK MASTER</h2>
+
+              <Line />
+              <h4 className={classes.subheadings}>Technologies used</h4>
               <div className={classes.projects__tech_stack}>
                 {/* <h3>On the frontend</h3> */}
                 <h5>React</h5>
@@ -30,8 +34,8 @@ const ReactProjects = () => {
                 <h5>Multer</h5>
                 <h5>Mongoose</h5>
               </div>
-              <h4>Overview</h4>
-              <h2>THE COOK MASTER</h2>
+              <h4 className={classes.subheadings}>Overview</h4>
+
               <p>
                 A fullstack application built with React on the front end and
                 NodeJS and Express on the backend. A fullstack application built
@@ -77,7 +81,10 @@ const ReactProjects = () => {
               />
             </article>
             <article>
-              <h4>Technologies used</h4>
+              <h4>Fullstack MERN application</h4>
+              <h2 className={classes.app__heading}>MEMENTO SHOP</h2>
+              <Line />
+              <h4 className={classes.subheadings}>Technologies used</h4>
               <div className={classes.projects__tech_stack}>
                 {/* <h3>On the frontend</h3> */}
                 <h5>React</h5>
@@ -93,8 +100,8 @@ const ReactProjects = () => {
                 <h5>Multer</h5>
                 <h5>Mongoose</h5>
               </div>
-              <h4>Overview</h4>
-              <h2>THE COOK MASTER</h2>
+              <h4 className={classes.subheadings}>Overview</h4>
+
               <p>
                 A fullstack application built with React on the front end and
                 NodeJS and Express on the backend. A fullstack application built
@@ -108,7 +115,7 @@ const ReactProjects = () => {
                 NodeJS and Express on the backend.
               </p>
               <div className={classes.projects__buttons}>
-              <Link to={"/projects/memento-shop"} className="btn__primary">
+                <Link to={"/projects/memento-shop"} className="btn__primary">
                   Learn More
                 </Link>
                 <a
@@ -128,7 +135,10 @@ const ReactProjects = () => {
         <div className="container">
           <section className={classes.projects__section}>
             <article>
-              <h4>Technologies used</h4>
+              <h4>REACT app with themoviedb.org API</h4>
+            <h2>MOVIEZILLA</h2>
+            <Line />
+              <h4 className={classes.subheadings}>Technologies used</h4>
               <div className={classes.projects__tech_stack}>
                 {/* <h3>On the frontend</h3> */}
                 <h5>React</h5>
@@ -144,8 +154,8 @@ const ReactProjects = () => {
                 <h5>Multer</h5>
                 <h5>Mongoose</h5>
               </div>
-              <h4>Overview</h4>
-              <h2>THE COOK MASTER</h2>
+              <h4 className={classes.subheadings}>Overview</h4>
+              
               <p>
                 A fullstack application built with React on the front end and
                 NodeJS and Express on the backend. A fullstack application built
@@ -159,7 +169,7 @@ const ReactProjects = () => {
                 NodeJS and Express on the backend.
               </p>
               <div className={classes.projects__buttons}>
-              <Link to={"/projects/moviezilla"} className="btn__primary">
+                <Link to={"/projects/moviezilla"} className="btn__primary">
                   Learn More
                 </Link>
                 <a

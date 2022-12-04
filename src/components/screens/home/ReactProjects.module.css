@@ -14,6 +14,7 @@
 }
 
 .projects__section {
+    padding-top: 4rem;
     display: flex;
     gap: 4rem;
     justify-content: space-around;
@@ -23,6 +24,7 @@
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
+    margin-bottom: 2rem;
 }
 
 .projects__image img {
@@ -34,4 +36,12 @@
     margin-bottom: 4rem;
     display: flex;
     gap: 2rem;
+}
+
+.app__heading {
+    margin-bottom: 2rem;
+}
+
+.subheadings {
+    margin-bottom: 1rem;
 }
