@@ -3,7 +3,7 @@
     /* background-repeat: no-repeat;
     background-size: cover; */
     background-color: var(--blue);
-    height: 100vh;
+    /* min-height: 100vh; */
 }
 
 .projects__header {
@@ -27,4 +27,11 @@
 
 .projects__image img {
      max-width: 300px;
+}
+
+.projects__buttons {
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    display: flex;
+    gap: 2rem;
 }
