@@ -63,7 +63,7 @@ const ReactProjects = () => {
               />
               <img
                 src={require("../../../assets/cookmaster2.png")}
-                alt="cooking"
+                alt="cooking2"
               />
             </article>
           </section>
@@ -73,10 +73,8 @@ const ReactProjects = () => {
         <div className="container">
           <section className={classes.projects__section}>
             <article className={classes.projects__image}>
-              <img
-                src={require("../../../assets/cookmaster.png")}
-                alt="guitar"
-              />
+              <img src={require("../../../assets/shop2.png")} alt="shop1" />
+              <img src={require("../../../assets/shop1.png")} alt="shop3" />
             </article>
             <article>
               <h4>Fullstack MERN application</h4>
@@ -87,30 +85,27 @@ const ReactProjects = () => {
                 {/* <h3>On the frontend</h3> */}
                 <h5>React</h5>
                 <h5>CSS3</h5>
-                <h5>Font Awesome</h5>
                 <h5>React Router</h5>
-                <h5>React Toastify</h5>
                 <h5>Redux</h5>
+                <h5>Paypal API</h5>
+                <h5>Bootstrap</h5>
+                <h5>Axios</h5>
                 {/* <h3>On the backend</h3> */}
                 <h5>NodeJS</h5>
                 <h5>MongoDB</h5>
                 <h5>Express</h5>
-                <h5>Multer</h5>
+                <h5>Bcryptjs</h5>
                 <h5>Mongoose</h5>
+                <h5>Express Async Handler</h5>
+                <h5>Jsonwebtoken</h5>
               </div>
               <h4 className={classes.subheadings}>Overview</h4>
 
               <p>
-                A fullstack application built with React on the front end and
-                NodeJS and Express on the backend. A fullstack application built
-                with React on the front end and NodeJS and Express on the
-                backend. A fullstack application built with React on the front
-                end and NodeJS and Express on the backend.A fullstack
-                application built with React on the front end and NodeJS and
-                Express on the backend.A fullstack application built with React
-                on the front end and NodeJS and Express on the backend.A
-                fullstack application built with React on the front end and
-                NodeJS and Express on the backend.
+                Small online store with sample products where visitors could
+                register and purchase a product, submit a payment via PayPal and
+                track their order. There is also a separate admin panel where
+                admin user could manage products as well as deliveries.
               </p>
               <div className={classes.projects__buttons}>
                 <Link to={"/projects/memento-shop"} className="btn__primary">
@@ -155,16 +150,10 @@ const ReactProjects = () => {
               <h4 className={classes.subheadings}>Overview</h4>
 
               <p>
-                A fullstack application built with React on the front end and
-                NodeJS and Express on the backend. A fullstack application built
-                with React on the front end and NodeJS and Express on the
-                backend. A fullstack application built with React on the front
-                end and NodeJS and Express on the backend.A fullstack
-                application built with React on the front end and NodeJS and
-                Express on the backend.A fullstack application built with React
-                on the front end and NodeJS and Express on the backend.A
-                fullstack application built with React on the front end and
-                NodeJS and Express on the backend.
+                Frontend application built with React where visitors could
+                search for a movie or upload file with a list of movies, then
+                sort the results and remove films from the API response and
+                finally create and save the list of movies.
               </p>
               <div className={classes.projects__buttons}>
                 <Link to={"/projects/moviezilla"} className="btn__primary">
@@ -181,10 +170,8 @@ const ReactProjects = () => {
               </div>
             </article>
             <article className={classes.projects__image}>
-              <img
-                src={require("../../../assets/cookmaster.png")}
-                alt="guitar"
-              />
+              <img src={require("../../../assets/movie2.png")} alt="movie2" />
+              <img src={require("../../../assets/movie3.png")} alt="movie3" />
             </article>
           </section>
         </div>
