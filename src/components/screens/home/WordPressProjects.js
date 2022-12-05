@@ -7,7 +7,7 @@ const WordPressProjects = () => {
     <section className={classes.wordpress__section}>
       <section className="container">
         <div className={classes.wordpress__section_header}>
-        <h4>LIVE BUSINESS SITES BUILT FOR FRIENDS</h4>
+          <h4>LIVE BUSINESS SITES BUILT FOR CLIENTS</h4>
           <h2>WORDPRESS PROJECTS</h2>
           <Line />
         </div>
@@ -31,11 +31,13 @@ const WordPressProjects = () => {
             </div>
           </article>
           <article className={classes.article__container}>
-            <img src={require("../../../assets/teasite.png")} alt="teadesign" />
+            <img src={require("../../../assets/rave.png")} alt="accounting" />
             <div className={classes.site__info}>
               <h4>ACCOUNTING SERVICES BUSINESS SITE</h4>
               <p>
-                
+                A friend has an accounting office that is quite popular in our
+                town actually and I urged him to go online and find even more
+                clients!
               </p>
               <a
                 className="btn__secondary"
@@ -48,12 +50,13 @@ const WordPressProjects = () => {
             </div>
           </article>
           <article className={classes.article__container}>
-            <img src={require("../../../assets/teasite.png")} alt="teadesign" />
+            <img src={require("../../../assets/wood.png")} alt="woodworking" />
             <div className={classes.site__info}>
               <h4>WOODWORKING BUSINESS SITE</h4>
               <p>
-                Some text about this site. Some text about this site. Some text
-                about this site. Some text about this site.
+                A fellow and his father run logging and woodworking business for
+                years and finally went online. It turned out they have no competitors with online presence and receive several inquires daily through their
+                contact form.
               </p>
               <a
                 className="btn__secondary"
