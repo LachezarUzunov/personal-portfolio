@@ -1,6 +1,7 @@
 import React from "react";
 import Line from "../../layout/Line";
 import classes from "./Header.module.css";
+import CV_Lachezar_Uzunov from "../../../assets/CV_Lachezar_Uzunov.pdf";
 
 const Header = () => {
   return (
@@ -16,11 +17,16 @@ const Header = () => {
               about building exciting projects!
             </p>
             <br />
-            <p className={classes.desc}>I am also a father, a hard rock
-              lover and an amateur guitarist </p>
+            <p className={classes.desc}>
+              I am also a father, a hard rock lover and an amateur guitarist.
+            </p>
             <div className={classes.btns__div}>
-              <button className="btn__primary">Download CV</button>
-              <button className="btn__secondary">View My Projects</button>
+              <a download className="btn__primary" href={CV_Lachezar_Uzunov}>
+                Download Resume
+              </a>
+              <a className="btn__secondary" href="#react">
+                View My Projects
+              </a>
             </div>
           </div>
         </div>

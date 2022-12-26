@@ -1,37 +1,92 @@
 .header__section {
-    margin-top: -10vh;
-    background-image: url('../../../assets/scattered-golden-glitter-particles-background\(1\).jpg');
-    height: 100vh;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
+  margin-top: -10vh;
+  background-image: url("../../../assets/backgoundweb.webp");
+  min-height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .header__bg {
-    background-color: rgba(0, 0, 0, 0.7);
-    height: 100vh;
+  background-color: rgba(0, 0, 0, 0.7);
+  min-height: 100vh;
+  padding-bottom: 4rem;
 }
 
 .header__inner {
-    width: 65%;
+  width: 65%;
 }
 
 .header {
-    padding-top: 10rem;
+  padding-top: 12rem;
 }
 
 .desc {
-    color: white;
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 1.6rem;
-    font-weight: 200;
-    width: fit-content;
+  /* margin-top: 2rem; */
+  color: white;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 200;
+  width: fit-content;
 }
 
 .btns__div {
+  display: flex;
+  gap: 2rem;
+  margin-top: 4rem;
+}
+
+/* ============= MEDIA QUERIES (SMALL DEVICES) ============== */
+@media screen and (max-width: 450px) {
+  .header__bg {
+    padding-bottom: 2rem;
+  }
+
+  .header__inner {
+    width: 100%;
+    padding: 0 0.8rem;
+  }
+
+  .header {
+    padding-top: 10rem;
+  }
+
+  .header h2 {
+    text-align: center;
+  }
+
+  .header__inner {
     display: flex;
-    gap: 2rem;
-    margin-top: 2rem;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .btns__div {
+    flex-direction: column;
+  }
+}
+
+/* ============= MEDIA QUERIES (Extra SMALL DEVICES) ============== */
+@media screen and (max-width: 360px) {
+  .header h2 {
+    font-size: 1rem;
+    line-height: 2;
+    font-weight: 400;
+  }
+
+  .desc {
+    font-size: 1.2rem;
+    line-height: 1.4;
+    font-weight: 200;
+  }
+
+  .btns__div {
+    text-align: center;
+  }
+
+  .btns__div a {
+    font-size: 1rem;
+  }
 }
 
 /* font-family: 'Baloo 2', cursive;

@@ -1,49 +1,95 @@
 .nav {
-    display: flex;
-    flex-direction: row;
-    height: 10vh;
-    width: 100%;
-    /* gap: 6rem; */
-    align-items: center;
-    justify-content: space-evenly;
+  position: fixed;
+  inset: 0;
+  display: flex;
+  height: 10vh;
+  width: 100%;
+  align-items: center;
+  justify-content: space-evenly;
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(2rem);
+}
+
+.mobile__btn {
+  display: none;
 }
 
 .nav li {
+  display: flex;
+  gap: 1rem;
+  width: 100%;
+  justify-content: center;
+  font-family: "Goldman", cursive;
+  font-size: 2rem;
+  padding: 1rem;
+  transition: 300ms ease-in-out;
+}
+
+.nav li:hover {
+  cursor: pointer;
+  /* border-bottom: 3px solid var(--accent-blue);
+  border-radius: 50%; */
+}
+
+.active {
+  border-bottom: 4px solid var(--accent-blue);
+}
+
+/* ============= MEDIA QUERIES (SMALL DEVICES) ============== */
+@media screen and (max-width: 450px) {
+  .nav {
+    flex-direction: column;
+    inset: 0 0 0 30%;
+    height: 100%;
+    justify-content: unset;
+    gap: 1rem;
+    padding-top: 10rem;
+    padding-right: 14rem;
+    align-items: center;
+  }
+
+  .closed {
+    transform: translateX(100%);
+    transition: transform 500ms ease-in-out;
+  }
+
+  .open {
+    transform: translateX(0%);
+  }
+
+  .nav li {
     display: flex;
     gap: 1rem;
     width: 100%;
     justify-content: center;
-    color: var(--darkerblue);
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 2rem;
-    padding: 1rem;
-    transition: 400ms ease-in-out;
-}
+    font-family: "Goldman", cursive;
+    font-size: 1.4rem;
+    transition: 300ms ease-in-out;
+  }
 
-.nav li.active {
-    color: var(--accent-blue);
-    /* box-shadow: 20px 25px 50px 0px rgba(255,255,255,0.75); */
-}
-
-.nav li:hover {
+  .mobile__btn {
+    display: block;
+    position: fixed;
+    right: 0rem;
+    top: 0rem;
+    padding: 1.4rem;
+    border-radius: 0 0 0 50%;
+    color: var(--darkblue);
+    aspect-ratio: 1;
+    z-index: 9999;
+    font-size: 1.4rem;
     cursor: pointer;
-    color:var(--accent-blue);
+    background: rgba(255, 255, 255, 0.265);
+    backdrop-filter: blur(2rem);
+  }
 }
 
-.active {
-    border-bottom: 4px solid var(--accent-blue)
+/* ============= MEDIA QUERIES (EXTRA SMALL DEVICES) ============== */
+@media screen and (max-width: 360px) {
+  .nav {
+    padding-right: 10rem;
+  }
 }
-
-.link {
-    color: var(--darkerblue);
-    transition: 200ms ease-in-out;
-}
-
-.nav li:hover .link {
-    color: var(--accent-blue);
-    font-size: 2.1rem;
-}
-
 
 /* font-family: 'Baloo 2', cursive;
 font-family: 'Josefin Sans', sans-serif;

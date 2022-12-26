@@ -1,56 +1,107 @@
 .projects__bg {
-    /* background-image: url("../../../assets/bursting-energy-particles-made-golden-dust.jpg"); */
-    /* background-repeat: no-repeat;
+  /* background-image: url("../../../assets/bursting-energy-particles-made-golden-dust.jpg"); */
+  /* background-repeat: no-repeat;
     background-size: cover; */
-    background-color: var(--blue);
-    /* min-height: 100vh; */
+  background-color: var(--blue);
 }
 
 .projects__header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 6rem;
 }
 
 .projects__section {
-    padding-top: 4rem;
-    display: flex;
-    gap: 4rem;
-    justify-content: space-around;
+  padding-top: 4rem;
+  display: flex;
+  gap: 4rem;
+  justify-content: space-around;
 }
 
 .projects__tech_stack {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
-    margin-bottom: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 2rem;
 }
 
 .projects__image {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 4rem;
+}
+
+.projects__image_res {
+  display: none;
 }
 
 .projects__image img {
-     max-width: 300px;
-     border-radius: 25px;
-     box-shadow: 0px 0px 30px 2px rgb(0, 0, 0);
+  max-width: 300px;
+  border-radius: 25px;
+  box-shadow: 0px 0px 30px 2px rgb(0, 0, 0);
 }
 
 .projects__buttons {
-    margin-top: 2rem;
-    margin-bottom: 4rem;
-    display: flex;
-    gap: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+  display: flex;
+  gap: 2rem;
 }
 
 .app__heading {
-    margin-bottom: 2rem;
+  margin-bottom: 2rem;
 }
 
 .subheadings {
-    margin-bottom: 1rem;
+  margin-bottom: 1rem;
+}
+
+/* ============= MEDIA QUERIES (SMALL DEVICES) ============== */
+@media screen and (max-width: 450px) {
+  .projects__section {
+    flex-direction: column;
+    gap: 4rem;
+    justify-content: space-around;
+  }
+
+  .projects__image_res {
+    margin: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+  }
+
+  .projects__image_res img {
+    max-width: 300px;
+    border-radius: 25px;
+    box-shadow: 0px 0px 30px 2px rgb(0, 0, 0);
+  }
+
+  .projects__header {
+    text-align: center;
+  }
+
+  .application__header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .projects__image {
+    display: none;
+  }
+}
+
+/* ============= MEDIA QUERIES (Extra SMALL DEVICES) ============== */
+@media screen and (max-width: 360px) {
+  .projects__section {
+    padding-top: 1.4rem;
+  }
+
+  .projects__image {
+    display: none;
+  }
 }
