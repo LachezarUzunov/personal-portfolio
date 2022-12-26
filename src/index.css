@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;800&family=Goldman:wght@400;700&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&family=Marhey:wght@300;400;700&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,1000&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;800&family=Goldman:wght@400;700&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&family=Marhey:wght@300;400;700&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,1000&display=swap");
 
 /*     
     font-family: 'Baloo 2', cursive;
@@ -42,52 +42,64 @@ html {
 
 h2 {
   color: white;
-  font-family: 'Goldman', cursive;
+  font-family: "Goldman", cursive;
   letter-spacing: 2px;
   font-size: 2rem;
   font-weight: 600;
 }
 
 h3 {
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   letter-spacing: 2px;
   font-size: 2.4rem;
 }
 
 h4 {
   color: var(--accent-yellow);
-  font-family: 'Josefin Sans', sans-serif;
-  font-family: 'Goldman', cursive;
+  font-family: "Josefin Sans", sans-serif;
+  font-family: "Goldman", cursive;
   font-weight: 300;
   font-style: italic;
   font-size: 1rem;
-  letter-spacing: .8px;
+  letter-spacing: 0.8px;
 }
 
 h5 {
-  padding: .4rem 1rem;
+  padding: 0.4rem 1rem;
   background-color: var(--accent-yellow);
   border-radius: 10px;
-  font-family: 'Goldman', cursive;
+  font-family: "Goldman", cursive;
   font-weight: 400;
   font-size: 1rem;
   color: var(--darkerblue);
 }
 
 p {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   font-weight: 200;
   color: white;
   line-height: 1.4;
   font-size: 1.2rem;
-  letter-spacing: .6px;
+  letter-spacing: 0.6px;
 }
 
-input {
+input,
+textarea {
   background-color: var(--accent-blue);
   padding: 1rem;
   border-radius: 0 25px 0 25px;
-  color: var(--accent-yellow)
+  color: var(--accent-yellow);
+  font-family: "Goldman", cursive;
+  width: 480px;
+}
+
+a {
+  font-family: "Goldman", cursive;
+  color: var(--accent-blue);
+}
+
+.mobile {
+  display: none;
 }
 
 .container {
@@ -96,12 +108,13 @@ input {
 }
 
 .btn__primary {
-  padding: .8rem 2rem;
-  border-radius: 25px;
+  padding: 0.8rem 2rem;
+  border-radius: 0 25px 0 25px;
   background-color: #2596f7;
+  border: 2px solid black;
   cursor: pointer;
   color: black;
-  font-family: 'Goldman', cursive;
+  font-family: "Goldman", cursive;
   font-weight: 700;
   font-size: 1.4rem;
   text-transform: uppercase;
@@ -110,19 +123,20 @@ input {
 }
 
 .btn__primary:hover {
-  -webkit-box-shadow: 0px 0px 20px 1px rgba(255,255,255,0.85);
-  -moz-box-shadow: 0px 0px 20px 1px rgba(255,255,255,0.85);
-  box-shadow: 0px 0px 30px 1px rgba(255,255,255,0.85);
+  -webkit-box-shadow: 0px 0px 20px 1px rgba(255, 255, 255, 0.85);
+  -moz-box-shadow: 0px 0px 20px 1px rgba(255, 255, 255, 0.85);
+  box-shadow: 0px 0px 30px 1px rgba(255, 255, 255, 0.85);
+  border-radius: 25px 0 25px 0;
 }
 
 .btn__secondary {
-  padding: .8rem 2rem;
-  border-radius: 25px;
+  padding: 0.8rem 2rem;
+  border-radius: 0 25px 0 25px;
   border: 2px solid #2596f7;
   background-color: black;
   cursor: pointer;
   color: var(--accent-blue);
-  font-family: 'Goldman', cursive;
+  font-family: "Goldman", cursive;
   font-weight: 600;
   font-size: 1.2rem;
   text-transform: uppercase;
@@ -131,13 +145,99 @@ input {
 }
 
 .btn__secondary:hover {
-  -webkit-box-shadow: 0px 0px 20px 1px rgba(255,255,255,0.85);
-  -moz-box-shadow: 0px 0px 20px 1px rgba(255,255,255,0.85);
-  box-shadow: 0px 0px 30px 1px rgba(255,255,255,0.85);
+  -webkit-box-shadow: 0px 0px 20px 1px rgba(255, 255, 255, 0.85);
+  -moz-box-shadow: 0px 0px 20px 1px rgba(255, 255, 255, 0.85);
+  box-shadow: 0px 0px 30px 1px rgba(255, 255, 255, 0.85);
+  border-radius: 25px 0 25px 0;
 }
 
 .header__component {
   background-color: rgba(0, 0, 0, 0.52);
 }
 
+/* ============= MEDIA QUERIES (MEDIUM DEVICES) ============== */
+@media screen and (max-width: 1024px) {
+  .container {
+    max-width: var(--container-width-md);
+  }
+}
 
+/* ============= MEDIA QUERIES (SMALL DEVICES) ============== */
+@media screen and (max-width: 500px) {
+  input, textarea {
+    width: 360px;
+  }
+}
+
+/* ============= MEDIA QUERIES (SMALL DEVICES) ============== */
+@media screen and (max-width: 450px) {
+  .container {
+    max-width: var(--container-width-sm);
+  }
+
+  .desktop {
+    display: none;
+  }
+
+  .mobile {
+    display: block;
+  }
+
+  h2 {
+    letter-spacing: 1px;
+    font-size: 1.6rem;
+    font-weight: 600;
+  }
+
+  h3 {
+    letter-spacing: 2px;
+    font-size: 2.4rem;
+  }
+
+  h4 {
+    font-weight: 300;
+    font-size: 1rem;
+    letter-spacing: 0.8px;
+  }
+
+  h5 {
+    padding: 0.4rem 1rem;
+    border-radius: 10px;
+    font-weight: 400;
+    font-size: 1rem;
+  }
+
+  p {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 1.2rem;
+    letter-spacing: 0.6px;
+  }
+
+  input,
+  textarea {
+    width: auto;
+  }
+
+  .btn__primary {
+    padding: 0.8rem 2rem;
+    border-radius: 25px;
+    font-weight: 600;
+    font-size: 1.2rem;
+  }
+
+  .btn__primary:hover {
+    border-radius: 25px;
+  }
+
+  .btn__secondary {
+    padding: 0.8rem 2rem;
+    border-radius: 25px;
+    font-weight: 600;
+    font-size: 1.2rem;
+  }
+
+  .btn__secondary:hover {
+    border-radius: 25px;
+  }
+}
